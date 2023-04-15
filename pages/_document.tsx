@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Abdullah Alam</title>
         <meta
           name="description"
           content="Tech enthusiast with passion for programming, instinct for crafting visually stunning websites that provide exceptional user experiences."

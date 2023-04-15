@@ -23,7 +23,7 @@ export default function Sidebar({ setSidebarWidth }: any) {
             <span className="relative text-3xl font-bold text-blue-950">
               Abdullah Alam
               <span
-                className="absolute -right-10 top-0 -z-10 whitespace-nowrap text-4xl font-extrabold text-gray-200"
+                className="absolute -right-10 top-0 -z-10 whitespace-nowrap text-4.5xl font-extrabold text-gray-200"
                 style={nunito.style}>
                 Abdullah Alam
               </span>

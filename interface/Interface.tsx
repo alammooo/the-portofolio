@@ -3,3 +3,15 @@ export interface SectionInterface {
   sub?: string
   title: string
 }
+
+export interface TypeProps {
+  type:
+    | "service"
+    | "about"
+    | "experience"
+    | "project"
+    | "client"
+    | "testimonial"
+    | "blog"
+    | "contact"
+}

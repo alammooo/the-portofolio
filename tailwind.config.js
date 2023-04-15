@@ -9,5 +9,11 @@ module.exports = {
     "./components/**/*.{ts,tsx}",
   ],
   plugins: [require("flowbite/plugin")],
-  theme: {},
+  theme: {
+    extend: {
+      fontSize: {
+        "4.5xl": "2.5rem",
+      },
+    },
+  },
 }

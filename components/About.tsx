@@ -46,15 +46,15 @@ export default function About() {
         </div>
         <div className="grid grid-cols-3 mt-12 gap-x-7">
           <div className="flex flex-col items-center bg-amber-100 text-blue-950 py-16 gap-3">
-            <span className="text-4xl font-bold">10+</span>
+            <span className="text-4.5xl font-bold">10+</span>
             <span className="uppercase">Yeaars of Experience</span>
           </div>
           <div className="flex flex-col items-center bg-amber-100 text-blue-950 py-16 gap-3">
-            <span className="text-4xl font-bold">10+</span>
+            <span className="text-4.5xl font-bold">10+</span>
             <span className="uppercase">Yeaars of Experience</span>
           </div>
           <div className="flex flex-col items-center bg-amber-100 text-blue-950 py-16 gap-3">
-            <span className="text-4xl font-bold">10+</span>
+            <span className="text-4.5xl font-bold">10+</span>
             <span className="uppercase">Yeaars of Experience</span>
           </div>
         </div>

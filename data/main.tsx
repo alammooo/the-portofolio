@@ -72,3 +72,30 @@ export const sectionTitle: SectionInterface[] = [
     title: "Get in touch",
   },
 ]
+
+export const experienceData = [
+  {
+    year: "2018 - Present",
+    company: "Envato Market",
+    job: "Web Developer",
+    description: `Website development is the process of building, programming, coding and maintaining websites and web applications.`,
+  },
+  {
+    year: "2018 - Present",
+    company: "Envato Market",
+    job: "Web Developer",
+    description: `Website development is the process of building, programming, coding and maintaining websites and web applications.`,
+  },
+  {
+    year: "2018 - Present",
+    company: "Envato Market",
+    job: "Web Developer",
+    description: `Website development is the process of building, programming, coding and maintaining websites and web applications.`,
+  },
+  {
+    year: "2018 - Present",
+    company: "Envato Market",
+    job: "Web Developer",
+    description: `Website development is the process of building, programming, coding and maintaining websites and web applications.`,
+  },
+]
