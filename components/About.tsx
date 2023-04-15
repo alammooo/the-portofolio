@@ -20,7 +20,7 @@ export default function About() {
           <div className="flex w-3/5 flex-col gap-10">
             <p className="leading-loose tracking-wider text-slate-500">
               Hello there! My name is Abdullah Alam. I am a web designer &
-              developer, and I'm very passionate and dedicated to my work.
+              developer, and I&apos;m very passionate and dedicated to my work.
             </p>
             <p className="leading-loose tracking-wider text-slate-500">
               With years experience as a professional a full stack web
