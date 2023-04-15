@@ -21,7 +21,7 @@ export const navLinks = [
   "about",
   "service",
   "portfolio",
-  "news",
+  "blog",
   "contact",
 ]
 
@@ -176,4 +176,25 @@ export const techStack = [
   },
 ]
 
-export const projectImg = [TravelPack, Alzora, KlinikKu, Easteria]
+export const projectImg = [
+  {
+    company: "Hacktiv8",
+    name: "travelpack",
+    img: TravelPack,
+  },
+  {
+    company: "Hacktiv8",
+    name: "Alzora",
+    img: Alzora,
+  },
+  {
+    company: "Medica Utama",
+    name: "KlinikKu",
+    img: KlinikKu,
+  },
+  {
+    company: "Hacktiv8",
+    name: "Easteria",
+    img: Easteria,
+  },
+]

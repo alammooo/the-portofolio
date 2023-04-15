@@ -6,17 +6,25 @@ import HeadlessTab from "./utils/HeadlessTab"
 
 export default function Projects() {
   return (
-    <section className="">
+    <section
+      className=""
+      id="portfolio">
       <div className="mx-auto max-w-7xl px-10 py-10">
         <SectionTitle type="project" />
-        <div className="mx-auto mt-8 grid grid-cols-2 max-w-4xl gap-10">
+        <div className="mx-auto mt-8 grid grid-cols-3 gap-7">
           {projectImg.map((el, i) => (
-            <Image
-              className="cursor-pointer border shadow-lg"
-              src={el}
-              key={i}
-              alt={`${i}`}
-            />
+            <div className="flex flex-col justify-between gap-3">
+              <Image
+                className="cursor-pointer border shadow-lg brightness-110 duration-300 hover:scale-105"
+                src={el.img}
+                key={i}
+                alt={`${i}`}
+              />
+              <div className="flex flex-col gap-3">
+                <span className="font-medium text-slate-500 uppercase">{el.company}</span>
+                <span className="text-2xl font-semibold text-blue-950 capitalize">{el.name}</span>
+              </div>
+            </div>
           ))}
         </div>
       </div>

@@ -1,8 +1,10 @@
 import { navLinks, socialIcon } from "@/data/main"
-import { Nunito } from "next/font/google"
+import { Kristi, Nunito } from "next/font/google"
 import React from "react"
+import ProfilePict from "@/assets/my-pict.jpg"
+import Image from "next/image"
 
-const nunito = Nunito({ subsets: ["latin"] })
+const kristi = Kristi({ subsets: ["latin"], weight: "400" })
 
 export default function Sidebar({ setSidebarWidth }: any) {
   const sidebarRef = React.useRef<HTMLDivElement>(null)
@@ -11,7 +13,7 @@ export default function Sidebar({ setSidebarWidth }: any) {
       setSidebarWidth(sidebarRef.current.clientWidth)
     }
   })
-  
+
   return (
     <nav
       title="sidebar"
@@ -19,12 +21,19 @@ export default function Sidebar({ setSidebarWidth }: any) {
       ref={sidebarRef}>
       <div className="flex h-screen flex-col justify-between border-r px-14 py-12 text-center">
         <div className="name">
+          <i className="mx-auto mb-4 mt-1 flex aspect-square w-32">
+            <Image
+              src={ProfilePict}
+              alt="my-pict"
+              className="rounded-full object-cover brightness-110"
+            />
+          </i>
           <h3>
             <span className="relative text-3xl font-bold text-blue-950">
               Abdullah Alam
               <span
-                className="absolute -right-10 top-0 -z-10 whitespace-nowrap text-4.5xl font-extrabold text-gray-200"
-                style={nunito.style}>
+                className="absolute -right-7 -top-5 -z-10 whitespace-nowrap text-7xl font-extrabold text-gray-200"
+                style={kristi.style}>
                 Abdullah Alam
               </span>
             </span>
@@ -56,7 +65,7 @@ export default function Sidebar({ setSidebarWidth }: any) {
               ))}
             </ul>
           </div>
-          <div className="text">
+          <div className="text-slate-500">
             <p>
               Copyright © 2023 Abdullah Alam. <br />
               All rights reserved.

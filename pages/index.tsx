@@ -9,10 +9,11 @@ import Head from "next/head"
 import Services from "@/components/Services"
 import Projects from "@/components/Projects"
 import Technology from "@/components/Technology"
+import Loader from "@/components/utils/Loader"
 
 export default function Home() {
   const { sidebarWidth } = React.useContext(AppContext)
-
+  
   return (
     <>
       <Head>

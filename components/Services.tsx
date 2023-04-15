@@ -3,7 +3,7 @@ import SectionTitle from "./utils/SectionTitle"
 
 export default function Services() {
   return (
-    <section className="py-16">
+    <section className="py-16" id="service">
       <div className="mx-auto max-w-7xl px-10">
         <div className="flex justify-between">
           <SectionTitle type="service" />
