@@ -13,11 +13,10 @@ export default function Projects() {
         <SectionTitle type="project" />
         <div className="mx-auto mt-8 grid grid-cols-3 gap-7">
           {projectImg.map((el, i) => (
-            <div className="flex flex-col justify-between gap-3">
+            <div className="flex flex-col justify-between gap-3" key={i}>
               <Image
                 className="cursor-pointer border shadow-lg brightness-110 duration-300 hover:scale-105"
                 src={el.img}
-                key={i}
                 alt={`${i}`}
               />
               <div className="flex flex-col gap-3">
