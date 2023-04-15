@@ -15,7 +15,7 @@ export default function Sidebar({ setSidebarWidth }: any) {
   return (
     <nav
       title="sidebar"
-      className=" fixed hidden md:flex"
+      className="fixed hidden md:flex"
       ref={sidebarRef}>
       <div className="flex h-screen flex-col justify-between border-r px-14 py-12 text-center">
         <div className="name">

@@ -6,9 +6,9 @@ export default function About() {
     <section
       id="about"
       className="py-20">
-      <div className="mx-auto max-w-7xl px-10">
-        <div className="flex">
-          <div className="w-2/5 flex-1">
+      <div className="md:mx-auto md:max-w-7xl md:px-10">
+        <div className="flex flex-col md:flex-row">
+          <div className="w-2/5 flex-1 mb-7 md:mb-0">
             <SectionTitle type="about" />
             <span className="block">Full Stack Developer</span>
             <button
@@ -28,7 +28,7 @@ export default function About() {
               make your project a success. I enjoy every step of the design
               process, from discussion and collaboration.
             </p>
-            <div className="flex gap-7">
+            <div className="flex flex-col md:flex-row gap-7">
               <div className="flex flex-col gap-3">
                 <h5>Age</h5>
                 <h6>27</h6>
@@ -44,7 +44,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-3 mt-12 gap-x-7">
+        <div className="grid md:grid-cols-3 mt-12 gap-x-7 gap-y-7 md:gap-y-0">
           <div className="flex flex-col items-center bg-amber-100 text-blue-950 py-16 gap-3">
             <span className="text-4.5xl font-bold">10+</span>
             <span className="uppercase">Yeaars of Experience</span>

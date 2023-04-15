@@ -9,7 +9,7 @@ export default function Contact() {
     <section
       className="min-h-screen bg-sky-50 py-10"
       id="contact">
-      <div className="mx-auto flex h-full max-w-7xl items-center px-10 ">
+      <div className="mx-auto flex flex-col md:flex-row h-full md:max-w-7xl md:items-center px-10 gap-8 md:gap-0">
         <div className="flex w-1/2 flex-col gap-7">
           <SectionTitle type="contact" />
           <p className="max-w-md leading-loose text-slate-500">

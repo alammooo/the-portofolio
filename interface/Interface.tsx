@@ -10,7 +10,7 @@ export interface TypeProps {
     | "about"
     | "experience"
     | "project"
-    | "client"
+    | "stack"
     | "testimonial"
     | "blog"
     | "contact"

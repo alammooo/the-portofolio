@@ -6,9 +6,9 @@ export default function Experience() {
     <section
       id="experience"
       className="bg-sky-50">
-      <div className="mx-auto max-w-7xl px-10 py-20">
+      <div className="mx-auto md:max-w-7xl px-10 py-20">
         <SectionTitle type="experience" />
-        <div className="mt-7 grid grid-cols-2 gap-10">
+        <div className="mt-7 grid md:grid-cols-2 gap-10">
           {experienceData.map((el, i) => (
             <div
               className="bg-white px-16 py-14 shadow-md"

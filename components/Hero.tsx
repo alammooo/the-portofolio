@@ -22,7 +22,7 @@ export default function Hero() {
               I&apos;m an Indonesian based full stack developer with years of
               experience with basic of computer engineer
             </p>
-            <div className="flex gap-5">
+            <div className="flex flex-col md:flex-row gap-5">
               <button
                 type="button"
                 className="rounded bg-blue-950 px-10 py-2.5 font-medium text-white hover:bg-blue-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 dark:focus:ring-blue-700">

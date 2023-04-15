@@ -1,6 +1,20 @@
 import { SectionInterface } from "@/interface/Interface"
 import { FaLinkedinIn, FaInstagram, FaWhatsapp } from "react-icons/fa"
 import { FiGithub } from "react-icons/fi"
+import {
+  SiNextdotjs,
+  SiPostgresql,
+  SiPrisma,
+  SiRedux,
+  SiSequelize,
+  SiTailwindcss,
+  SiTrpc,
+  SiTypescript,
+} from "react-icons/si"
+import TravelPack from "@/assets/projects/TravelPack-HR.jpg"
+import Alzora from "@/assets/projects/alzora.jpeg"
+import KlinikKu from "@/assets/projects/klinikKu.jpeg"
+import Easteria from "@/assets/projects/easteria.jpeg"
 
 export const navLinks = [
   "home",
@@ -52,14 +66,14 @@ export const sectionTitle: SectionInterface[] = [
     title: "Recent completed works",
   },
   {
-    type: "client",
-    sub: "CLIENTS",
-    title: "Customers & clients",
+    type: "stack",
+    sub: "STACK",
+    title: "Available tech stack",
   },
   {
     type: "testimonial",
     sub: "TESTIMONIAL",
-    title: "What client&apos;s say?",
+    title: "What client's say?",
   },
   {
     type: "blog",
@@ -99,3 +113,67 @@ export const experienceData = [
     description: `Website development is the process of building, programming, coding and maintaining websites and web applications.`,
   },
 ]
+
+export const serviceData = [
+  {
+    title: "Web Design",
+    desc: "Web development is the process of building, programming...",
+  },
+  {
+    title: "Web Design",
+    desc: "Web development is the process of building, programming...",
+  },
+  {
+    title: "Web Design",
+    desc: "Web development is the process of building, programming...",
+  },
+  {
+    title: "Web Design",
+    desc: "Web development is the process of building, programming...",
+  },
+  {
+    title: "Web Design",
+    desc: "Web development is the process of building, programming...",
+  },
+  {
+    title: "Web Design",
+    desc: "Web development is the process of building, programming...",
+  },
+]
+
+export const techStack = [
+  {
+    name: "postgresql",
+    icon: <SiPostgresql className="h-full w-full" />,
+  },
+  {
+    name: "typescript",
+    icon: <SiTypescript className="h-full w-full" />,
+  },
+  {
+    name: "next.js",
+    icon: <SiNextdotjs className="h-full w-full" />,
+  },
+  {
+    name: "sequelize",
+    icon: <SiSequelize className="h-full w-full" />,
+  },
+  {
+    name: "prisma",
+    icon: <SiPrisma className="h-full w-full" />,
+  },
+  {
+    name: "tailwindcss",
+    icon: <SiTailwindcss className="h-full w-full" />,
+  },
+  {
+    name: "redux-toolkit",
+    icon: <SiRedux className="h-full w-full" />,
+  },
+  {
+    name: "trpc",
+    icon: <SiTrpc className="h-full w-full" />,
+  },
+]
+
+export const projectImg = [TravelPack, Alzora, KlinikKu, Easteria]
