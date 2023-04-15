@@ -9,12 +9,11 @@ export default function Technology() {
         <SectionTitle type="stack" />
         <div className="mt-20 grid md:grid-cols-4">
           {techStack.map((el, i) => (
-            <div className="border border-amber-400 py-16 flex justify-center">
+            <div className="border border-amber-400 py-16 flex justify-center" key={i}>
               <Tooltip
                 content={el.name}
                 style="light">
                 <div
-                  key={i}
                   className="w-20 text-blue-950 duration-200 hover:text-blue-600 cursor-pointer">
                   {el.icon}
                 </div>
