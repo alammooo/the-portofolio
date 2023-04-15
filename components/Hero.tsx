@@ -8,7 +8,7 @@ export default function Hero() {
       id="hero"
       className="h-screen bg-amber-50 bg-opacity-90">
       <div className="mx-auto flex h-full max-w-7xl items-center px-10">
-        <div className="flex w-1/2 flex-col gap-36">
+        <div className="flex w-2/3 flex-col gap-36">
           <div className="flex flex-col gap-7">
             <h1 className="text-6xl font-extrabold leading-snug text-blue-950">
               Hi I&apos;m <span className="text-blue-600">Alam!</span> <br /> Full

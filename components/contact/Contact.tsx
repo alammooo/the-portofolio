@@ -7,9 +7,9 @@ const nunito = Nunito({ subsets: ["latin"] })
 export default function Contact() {
   return (
     <section
-      className="min-h-screen bg-sky-50"
+      className="min-h-screen bg-sky-50 py-10"
       id="contact">
-      <div className="mx-auto flex h-full max-w-7xl items-center px-10 py-16">
+      <div className="mx-auto flex h-full max-w-7xl items-center px-10 ">
         <div className="flex w-1/2 flex-col gap-7">
           <SectionTitle type="contact" />
           <p className="max-w-md leading-loose text-slate-500">
@@ -18,7 +18,7 @@ export default function Contact() {
             can contact anytime at 24/7
           </p>
           <div
-            className="flex flex-col gap-1.5 border-l-4 border-blue-600 pl-3 text-lg"
+            className="flex flex-col gap-1.5 text-lg"
             style={nunito.style}>
             <a
               href=""
@@ -39,7 +39,7 @@ export default function Contact() {
         </div>
         <ContactForm />
       </div>
-      <div className="container mx-auto my-5 h-[50vh] w-full pb-16 shadow-lg md:h-[40vh] md:w-[50vw]">
+      <div className="container mx-auto mt-16 h-[50vh] w-full shadow-lg md:h-[40vh] md:w-[50vw]">
         <iframe
           title="Maps"
           className="h-full w-full"

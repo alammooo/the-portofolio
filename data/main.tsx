@@ -68,7 +68,7 @@ export const sectionTitle: SectionInterface[] = [
   },
   {
     type: "contact",
-    sub: "LET&apos;S CONNECT",
+    sub: `LET'S CONNECT`,
     title: "Get in touch",
   },
 ]

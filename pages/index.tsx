@@ -8,7 +8,7 @@ export default function Home() {
   const { sidebarWidth } = React.useContext(AppContext)
 
   return (
-    <section className={`ml-[${sidebarWidth}px] flex-1`}>
+    <section className={`ml-[${sidebarWidth ?? 367}px] flex-1`}>
       <Hero />
       <Contact />
     </section>
