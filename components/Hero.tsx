@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="flex w-1/2 flex-col gap-36">
           <div className="flex flex-col gap-7">
             <h1 className="text-6xl font-extrabold leading-snug text-blue-950">
-              Hi I'm <span className="text-blue-600">Alam!</span> <br /> Full
+              Hi I&apos;m <span className="text-blue-600">Alam!</span> <br /> Full
               Stack{" "}
               <span className="underline decoration-blue-600 decoration-wavy underline-offset-[14px]">
                 Developer
@@ -19,7 +19,7 @@ export default function Hero() {
               Based in Indonesia
             </h1>
             <p className="max-w-md leading-loose tracking-wide">
-              I'm an Indonesian based full stack developer with years of
+              I&apos;m an Indonesian based full stack developer with years of
               experience with basic of computer engineer
             </p>
             <div className="flex gap-5">

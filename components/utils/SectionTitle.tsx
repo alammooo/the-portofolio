@@ -7,7 +7,7 @@ export default function SectionTitle({ type }: any) {
 
   React.useEffect(() => {
     setData(sectionTitle.find((el) => el.type === type))
-  }, [sectionTitle, type])
+  }, [type])
   return (
     <div className="flex flex-col gap-4">
       <h3 className="text-blue-800">- {data?.sub}</h3>

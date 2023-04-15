@@ -59,7 +59,7 @@ export const sectionTitle: SectionInterface[] = [
   {
     type: "testimonial",
     sub: "TESTIMONIAL",
-    title: "What client's say?",
+    title: "What client&apos;s say?",
   },
   {
     type: "blog",
@@ -68,7 +68,7 @@ export const sectionTitle: SectionInterface[] = [
   },
   {
     type: "contact",
-    sub: "LET'S CONNECT",
+    sub: "LET&apos;S CONNECT",
     title: "Get in touch",
   },
 ]
