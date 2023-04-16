@@ -9,16 +9,16 @@ export default function Contact() {
     <section
       className="min-h-screen bg-sky-50 py-10"
       id="contact">
-      <div className="mx-auto flex flex-col md:flex-row h-full md:max-w-7xl md:items-center px-10 gap-8 md:gap-0">
-        <div className="flex w-1/2 flex-col gap-7">
+      <div className="mx-auto flex flex-col md:flex-row h-full md:max-w-7xl md:items-center md:px-10 gap-8 md:gap-0">
+        <div className="flex md:w-1/2 flex-col gap-7">
           <SectionTitle type="contact" />
-          <p className="max-w-md leading-loose text-slate-500">
+          <p className="max-w-md leading-loose text-slate-500 px-10 md:px-0">
             I&apos;m currently avaliable to take on new projects, so feel free to
             send me a message about anything that you want to run past me. You
             can contact anytime at 24/7
           </p>
           <div
-            className="flex flex-col gap-1.5 text-lg"
+            className="flex flex-col gap-1.5 text-lg px-10 md:px-0"
             style={nunito.style}>
             <a
               href=""
@@ -39,7 +39,7 @@ export default function Contact() {
         </div>
         <ContactForm />
       </div>
-      <div className="container mx-auto mt-16 h-[50vh] w-full shadow-lg md:h-[40vh] md:w-[50vw]">
+      <div className="mx-auto mt-16 h-[50vh] w-full shadow-lg md:h-[40vh] md:w-[50vw]">
         <iframe
           title="Maps"
           className="h-full w-full"

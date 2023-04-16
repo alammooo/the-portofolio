@@ -5,9 +5,9 @@ import { Tooltip } from "flowbite-react"
 export default function Technology() {
   return (
     <section>
-      <div className="mx-auto max-w-7xl px-10 py-20">
+      <div className="mx-auto md:max-w-7xl md:px-10 py-20">
         <SectionTitle type="stack" />
-        <div className="mt-14 grid md:grid-cols-4">
+        <div className="mt-14 grid grid-cols-2 md:grid-cols-4">
           {techStack.map((el, i) => (
             <div
               className={`flex justify-center border border-l-0 border-t-0 border-amber-300 py-16 ${

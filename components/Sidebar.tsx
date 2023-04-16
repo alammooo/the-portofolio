@@ -6,20 +6,13 @@ import Image from "next/image"
 
 const kristi = Kristi({ subsets: ["latin"], weight: "400" })
 
-export default function Sidebar({ setSidebarWidth }: any) {
-  const sidebarRef = React.useRef<HTMLDivElement>(null)
-  React.useEffect(() => {
-    if (sidebarRef.current) {
-      setSidebarWidth(sidebarRef.current.clientWidth)
-    }
-  })
+export default function Sidebar() {
 
   return (
-    <nav
-      title="sidebar"
-      className="fixed hidden md:flex"
-      ref={sidebarRef}>
-      <div className="flex h-screen flex-col justify-between border-r px-14 py-12 text-center">
+    <nav className={`md:mr-[320px] 2xl:mr-[370px] hidden md:flex h-screen`}>
+      <div
+        className="fixed flex h-screen md:w-[320px] 2xl:w-[370px] flex-col justify-between border-r md:px-10 2xl:px-14 py-12 text-center"
+        id="sidebar">
         <div className="name">
           <i className="mx-auto mb-4 mt-1 flex aspect-square w-32">
             <Image
@@ -66,7 +59,7 @@ export default function Sidebar({ setSidebarWidth }: any) {
             </ul>
           </div>
           <div className="text-slate-500">
-            <p>
+            <p className="">
               Copyright © 2023 Abdullah Alam. <br />
               All rights reserved.
             </p>

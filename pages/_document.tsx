@@ -25,6 +25,11 @@ export default function Document() {
           type="image/x-icon"
           href="./favicon.ico"
         />
+        <meta
+          name="robots"
+          content="all"
+        />
+        <link rel="canonical" href="https://abdullah-alam.xyz/"/>
       </Head>
       <body>
         <Main />

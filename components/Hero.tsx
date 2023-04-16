@@ -10,10 +10,10 @@ export default function Hero() {
     <section
       id="hero"
       className="h-screen bg-amber-50 bg-opacity-90">
-      <div className="mx-auto flex h-full max-w-7xl items-center px-10">
-        <div className="flex w-7/12 flex-col gap-36">
+      <div className="mx-auto flex h-full md:max-w-7xl items-center md:px-10 py-5 md:py-0 px-4">
+        <div className="flex md:w-7/12 flex-col gap-16 md:gap-36">
           <div className="flex flex-col gap-5">
-            <h1 className="text-6xl font-extrabold leading-tight text-blue-950">
+            <h1 className="text-5xl 2xl:text-6xl font-extrabold leading-tight text-blue-950">
               Hi I&apos;m <span className="text-blue-600">Alam!</span> <br />{" "}
               Full Stack{" "}
               <span className="underline decoration-blue-600 decoration-wavy underline-offset-[14px]">

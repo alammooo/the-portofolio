@@ -9,9 +9,9 @@ export default function Projects() {
     <section
       className=""
       id="portfolio">
-      <div className="mx-auto max-w-7xl px-10 py-10">
+      <div className="mx-auto max-w-7xl md:px-10 py-10">
         <SectionTitle type="project" />
-        <div className="mx-auto mt-8 grid grid-cols-3 gap-7">
+        <div className="mx-auto mt-8 grid md:grid-cols-3 gap-7 px-5 md:px-0">
           {projectImg.map((el, i) => (
             <div className="flex flex-col justify-between gap-3" key={i}>
               <Image
