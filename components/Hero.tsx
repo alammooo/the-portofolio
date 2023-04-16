@@ -1,5 +1,6 @@
 import { Nunito } from "next/font/google"
-
+import HeroImg from "@/assets/svg/heroimg.svg"
+import Image from "next/image"
 const nunito = Nunito({ subsets: ["latin"] })
 
 export default function Hero() {
@@ -10,7 +11,7 @@ export default function Hero() {
       <div className="mx-auto flex h-full items-center px-4 py-5 md:max-w-7xl md:px-10 md:py-0">
         <div className="flex flex-col gap-16 md:w-7/12 md:gap-36">
           <div className="flex flex-col gap-5">
-            <h1 className="text-5xl font-extrabold leading-tight md:!leading-normal text-blue-950 2xl:text-6xl">
+            <h1 className="text-5xl font-extrabold leading-tight text-blue-950 md:!leading-normal 2xl:text-6xl">
               Hi I&apos;m <span className="text-blue-600">Alam!</span> <br />{" "}
               Full Stack{" "}
               <span className="underline decoration-blue-600 decoration-wavy underline-offset-4 md:underline-offset-[16px]">
@@ -48,6 +49,13 @@ export default function Hero() {
               Pondok Bukit Agung, Semarang
             </span>
           </div>
+        </div>
+        <div className="md:w-1/2">
+          <Image
+            src={HeroImg}
+            alt="heroimg"
+            className="h-full w-full"
+          />
         </div>
       </div>
     </section>
