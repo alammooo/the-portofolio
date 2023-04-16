@@ -4,8 +4,8 @@ import { Tooltip } from "flowbite-react"
 
 export default function Technology() {
   return (
-    <section id="portofolio">
-      <div className="mx-auto md:max-w-7xl md:px-10 py-20">
+    <section id="portfolio">
+      <div className="mx-auto md:max-w-7xl md:px-10 mt-16 pb-20 pt-16 bg-amber-50">
         <SectionTitle type="stack" />
         <div className="mt-14 grid grid-cols-2 md:grid-cols-4">
           {techStack.map((el, i) => (

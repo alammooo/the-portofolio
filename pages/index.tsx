@@ -9,6 +9,7 @@ import Projects from "@/components/Projects"
 import Technology from "@/components/Technology"
 import Sidebar from "@/components/Sidebar"
 import { Inter } from "next/font/google"
+import Blog from "@/components/Blog"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -29,6 +30,7 @@ export default function Home() {
           <Services />
           <Projects />
           <Technology />
+          <Blog />
           <Contact />
         </section>
       </main>

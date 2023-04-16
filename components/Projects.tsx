@@ -5,14 +5,14 @@ import { projectImg } from "@/data/main"
 export default function Projects() {
   return (
     <section
-      className="bg-project-pattern bg-cover"
+      className=""
       id="portfolio">
       <div className="mx-auto max-w-7xl py-10 md:px-10 ">
         <SectionTitle type="project" />
         <div className="mx-auto mt-8 grid gap-7 px-5 md:grid-cols-3 md:px-0">
           {projectImg.map((el, i) => (
             <div
-              className="flex flex-col justify-between gap-3"
+              className="flex flex-col justify-between gap-3 "
               key={i}>
               <Image
                 className="cursor-pointer border shadow-lg duration-300 hover:scale-105"

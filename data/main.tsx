@@ -198,3 +198,34 @@ export const projectImg = [
     img: Easteria,
   },
 ]
+
+export const blogTitle = [
+  {
+    title: `12 unique examples of portfolio websites`,
+    date: "April 12, 2023",
+  },
+  {
+    title: `12 unique examples of portfolio websites`,
+    date: "April 12, 2023",
+  },
+  {
+    title: `12 unique examples of portfolio websites`,
+    date: "April 12, 2023",
+  },
+  {
+    title: `12 unique examples of portfolio websites`,
+    date: "April 12, 2023",
+  },
+  {
+    title: `12 unique examples of portfolio websites`,
+    date: "April 12, 2023",
+  },
+  {
+    title: `12 unique examples of portfolio websites`,
+    date: "April 12, 2023",
+  },
+  {
+    title: `12 unique examples of portfolio websites`,
+    date: "April 12, 2023",
+  },
+]

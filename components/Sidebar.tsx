@@ -26,9 +26,6 @@ export default function Sidebar() {
     }
   }, [])
 
-  React.useEffect(() => {
-    console.log(activeLink)
-  }, [activeLink])
   return (
     <nav className={`hidden h-screen md:mr-[320px] md:flex 2xl:mr-[370px]`}>
       <div
@@ -39,7 +36,7 @@ export default function Sidebar() {
             <Image
               src={ProfilePict}
               alt="my-pict"
-              className="animate-morphling overflow-hidden rounded-full border-2 border-blue-400 object-cover"
+              className="animate-morphling overflow-hidden rounded-custom border-2 border-blue-400 object-cover"
             />
           </i>
           <h3>

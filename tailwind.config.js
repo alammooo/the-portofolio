@@ -15,6 +15,7 @@ module.exports = {
       },
       fontSize: {
         "4.5xl": "2.5rem",
+        "2.5xl": "1.75rem",
       },
       boxShadow: {
         "7xl": "inset 0px 0px 0px 9px rgba(255,255,255,.3)",
