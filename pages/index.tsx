@@ -8,17 +8,21 @@ import Services from "@/components/Services"
 import Projects from "@/components/Projects"
 import Technology from "@/components/Technology"
 import Sidebar from "@/components/Sidebar"
+import { Inter } from "next/font/google"
+
+const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
-
   return (
     <>
       <Head>
         <title>Abdullah Alam | Full Stack Developer</title>
       </Head>
-      <main className="md:flex">
-        <Sidebar/>
-        <section className={`md:flex-1 duration-300`}>
+      <main
+        className="md:flex"
+        style={inter.style}>
+        <Sidebar />
+        <section className={`duration-300 md:flex-1`}>
           <Hero />
           <About />
           <Experience />

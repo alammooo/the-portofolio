@@ -2,7 +2,6 @@ import { Carousel } from "flowbite-react"
 import SectionTitle from "./utils/SectionTitle"
 import Image from "next/image"
 import { projectImg } from "@/data/main"
-import HeadlessTab from "./utils/HeadlessTab"
 
 export default function Projects() {
   return (
