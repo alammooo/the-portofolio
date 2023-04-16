@@ -2,7 +2,7 @@ export default function ContactForm() {
   return (
     <form
       action=""
-      className="flex flex-col gap-10 px-4 md:w-1/2 md:px-0">
+      className="flex flex-col gap-10 md:w-1/2 md:px-0">
       <input
         type="text"
         id="base-input"

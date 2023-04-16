@@ -5,14 +5,16 @@ import { Tooltip } from "flowbite-react"
 export default function Technology() {
   return (
     <section id="portfolio">
-      <div className="mx-auto md:max-w-7xl md:px-10 mt-16 pb-20 pt-16 bg-amber-50">
+      <div className="mx-auto mt-16 bg-amber-50 px-5 py-10 md:pb-20 md:pt-16 md:max-w-7xl md:px-10">
         <SectionTitle type="stack" />
         <div className="mt-14 grid grid-cols-2 md:grid-cols-4">
           {techStack.map((el, i) => (
             <div
-              className={`flex justify-center border border-l-0 border-t-0 border-amber-300 py-16 ${
-                i === 3 || i === 7 ? "border-r-0" : "border-r"
-              } ${i > 3 ? "border-b-0" : ""}`}
+              className={`flex justify-center border-amber-300 py-16 ${
+                i % 2 === 0 ? "border-r" : ""
+              } ${i < 6 ? "border-b md:border-b-0" : ""} ${
+                i < 4 ? "md:border-b" : ""
+              } ${i % 3 === 0 || i % 7 === 0 ? "" : "md:border-r"}`}
               key={i}>
               <Tooltip
                 content={el.name}

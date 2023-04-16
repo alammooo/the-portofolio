@@ -7,32 +7,26 @@ const nunito = Nunito({ subsets: ["latin"] })
 export default function Contact() {
   return (
     <section
-      className="min-h-screen bg-sky-50 py-10"
+      className="min-h-screen bg-sky-50 py-10 mt-16 md:mt-0"
       id="contact">
-      <div className="mx-auto flex flex-col md:flex-row h-full md:max-w-7xl md:items-center md:px-10 gap-8 md:gap-0">
-        <div className="flex md:w-1/2 flex-col gap-7">
+      <div className="md mx-auto flex h-full flex-col gap-8 md:max-w-7xl md:flex-row md:items-center px-5 md:px-10 mdgap-0">
+        <div className="flex flex-col gap-7 md:w-1/2">
           <SectionTitle type="contact" />
-          <p className="max-w-md leading-loose text-slate-500 px-10 md:px-0">
-            I&apos;m currently avaliable to take on new projects, so feel free to
-            send me a message about anything that you want to run past me. You
-            can contact anytime at 24/7
+          <p className="max-w-md leading-loose text-slate-500 md:px-0">
+            I&apos;m currently avaliable to take on new projects, so feel free
+            to send me a message about anything that you want to run past me.
+            You can contact anytime at 24/7
           </p>
           <div
-            className="flex flex-col gap-1.5 text-lg px-10 md:px-0"
+            className="flex flex-col gap-1.5 text-lg md:px-0"
             style={nunito.style}>
-            <span
-              
-              className="font-bold tracking-wider text-blue-950 underline underline-offset-4">
+            <span className="font-bold tracking-wider text-blue-950 underline underline-offset-4">
               +62 821-2210-4908
             </span>
-            <span
-              
-              className="font-bold tracking-wider text-blue-950 underline underline-offset-4">
+            <span className="font-bold tracking-wider text-blue-950 underline underline-offset-4">
               abdullah.alam@outlook.de
             </span>
-            <span
-              
-              className="font-bold tracking-wider text-blue-950 underline underline-offset-4">
+            <span className="font-bold tracking-wider text-blue-950 underline underline-offset-4">
               Pondok Bukit Agung, Semarang
             </span>
           </div>
