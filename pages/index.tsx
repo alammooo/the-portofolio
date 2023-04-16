@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Abdullah Alam</title>
+        <title>Abdullah Alam | Full Stack Developer</title>
       </Head>
       <main className="md:flex">
         <Sidebar/>

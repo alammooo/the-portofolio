@@ -20,21 +20,21 @@ export default function Contact() {
           <div
             className="flex flex-col gap-1.5 text-lg px-10 md:px-0"
             style={nunito.style}>
-            <a
-              href=""
+            <span
+              
               className="font-bold tracking-wider text-blue-950 underline underline-offset-4">
               +62 821-2210-4908
-            </a>
-            <a
-              href=""
+            </span>
+            <span
+              
               className="font-bold tracking-wider text-blue-950 underline underline-offset-4">
               abdullah.alam@outlook.de
-            </a>
-            <a
-              href=""
+            </span>
+            <span
+              
               className="font-bold tracking-wider text-blue-950 underline underline-offset-4">
               Pondok Bukit Agung, Semarang
-            </a>
+            </span>
           </div>
         </div>
         <ContactForm />
