@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <main className="md:flex">
         <Sidebar/>
-        <section className={`duration-300`}>
+        <section className={`md:flex-1 duration-300`}>
           <Hero />
           <About />
           <Experience />
