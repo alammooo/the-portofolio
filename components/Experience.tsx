@@ -14,10 +14,10 @@ export default function Experience() {
               className="bg-white px-7 py-8 md:px-16 md:py-14 shadow-md"
               key={i}>
               <span className="flex justify-between">
-                <h6 className="font-semibold text-amber-400">-{el.year}</h6>
-                <h6 className="text-lg font-semibold text-blue-800">
+                <span className="font-semibold text-amber-400">-{el.year}</span>
+                <span className="text-lg font-semibold text-blue-800">
                   - {el.company}
-                </h6>
+                </span>
               </span>
               <h4 className="text-xl font-extrabold text-blue-900 mb-3 mt-1">
                 {el.job}

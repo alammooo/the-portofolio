@@ -7,11 +7,10 @@ import Image from "next/image"
 const kristi = Kristi({ subsets: ["latin"], weight: "400" })
 
 export default function Sidebar() {
-
   return (
-    <nav className={`md:mr-[320px] 2xl:mr-[370px] hidden md:flex h-screen`}>
+    <nav className={`hidden h-screen md:mr-[320px] md:flex 2xl:mr-[370px]`}>
       <div
-        className="fixed flex h-screen md:w-[320px] 2xl:w-[370px] flex-col justify-between border-r md:px-10 2xl:px-14 py-12 text-center"
+        className="fixed flex h-screen flex-col justify-between border-r py-12 text-center md:w-[320px] md:px-10 2xl:w-[370px] 2xl:px-14"
         id="sidebar">
         <div className="name">
           <i className="mx-auto mb-4 mt-1 flex aspect-square w-32">
@@ -38,7 +37,11 @@ export default function Sidebar() {
               <li
                 className="capitalize"
                 key={i}>
-                <a href={`#${el}`}>{el}</a>
+                <a
+                  title={el}
+                  href={`#${el}`}>
+                  {el}
+                </a>
               </li>
             ))}
           </ul>
@@ -49,6 +52,7 @@ export default function Sidebar() {
               {socialIcon.map((el, i) => (
                 <li key={i}>
                   <a
+                    title={el.link}
                     href={el.link}
                     target="_blank"
                     className="flex justify-center rounded-full bg-blue-50 p-3 text-blue-900">

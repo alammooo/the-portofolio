@@ -30,20 +30,20 @@ export default function About() {
             </p>
             <div className="flex flex-col gap-5 md:gap-20 md:flex-row">
               <div className="flex flex-col gap-3">
-                <h5 className="uppercase text-slate-500 underline">Age</h5>
-                <h6 className="text-xl font-bold text-blue-900">27</h6>
+                <span className="uppercase text-slate-500 underline">Age</span>
+                <span className="text-xl font-bold text-blue-900">27</span>
               </div>
               <div className="flex flex-col gap-3">
-                <h5 className="uppercase text-slate-500 underline">Mail</h5>
-                <h6 className="text-xl font-bold text-blue-900">
+                <span className="uppercase text-slate-500 underline">Mail</span>
+                <span className="text-xl font-bold text-blue-900">
                   abdullah.alam@outlook.de
-                </h6>
+                </span>
               </div>
               <div className="flex flex-col gap-3">
-                <h5 className="uppercase text-slate-500 underline">Phone</h5>
-                <h6 className="text-xl font-bold text-blue-900">
+                <span className="uppercase text-slate-500 underline">Phone</span>
+                <span className="text-xl font-bold text-blue-900">
                   +62 821-2210-4908
-                </h6>
+                </span>
               </div>
             </div>
           </div>

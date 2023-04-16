@@ -8,6 +8,7 @@ export default function Services() {
         <div className="flex flex-col md:flex-row justify-between">
           <SectionTitle type="service" />
           <a
+          title="mail-to-me"
             href="mailto:abdullah.alam@outlook.de"
             className="md:self-center text-lg font-semibold text-blue-950 underline px-10 md:px-0">
             abdullah.alam@outlook.de
