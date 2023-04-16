@@ -7,8 +7,8 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="h-screen bg-amber-50 bg-opacity-90">
-      <div className="mx-auto flex h-full items-center px-4 py-5 md:max-w-7xl md:px-10 md:py-0">
+      className="min-h-screen md:h-screen bg-amber-50 bg-opacity-90">
+      <div className="mx-auto flex h-full items-center px-4 py-5 md:max-w-7xl md:px-10 md:py-0 flex-col-reverse md:flex-row">
         <div className="flex flex-col gap-16 md:w-7/12 md:gap-36">
           <div className="flex flex-col gap-5">
             <h1 className="text-5xl font-extrabold leading-tight text-blue-950 md:!leading-normal 2xl:text-6xl">
@@ -50,7 +50,7 @@ export default function Hero() {
             </span>
           </div>
         </div>
-        <div className="md:w-1/2">
+        <div className="w-full mb-5 md:mb-0 md:w-1/2">
           <Image
             src={HeroImg}
             alt="heroimg"
