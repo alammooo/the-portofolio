@@ -1,11 +1,14 @@
 import { blogTitle } from "@/data/main"
-import SectionTitle from "./utils/SectionTitle"
+import SectionTitle from "../utils/SectionTitle"
 import { IoCalendarOutline } from "react-icons/io5"
+import styles from "./Blog.module.css"
 
 export default function Blog() {
   return (
-    <section id="blog">
-      <div className="mx-auto flex flex-col gap-16 md:my-16 md:max-w-7xl md:flex-row md:px-10 px-5 mt-7 md:mt-0">
+    <section
+      id="blog"
+      className="mt-7 md:my-20">
+      <div className="mx-auto flex flex-col gap-16 px-5 md:mt-0 md:max-w-7xl md:flex-row md:px-10">
         <div className="flex flex-col gap-5 md:w-1/3 md:gap-16">
           <SectionTitle type="blog" />
           <button
@@ -26,7 +29,8 @@ export default function Blog() {
                   </i>
                   <span className="text-lg">{el.date}</span>
                 </span>
-                <span className="max-w-sm text-[22px] md:text-2.5xl font-semibold text-blue-950">
+                <span
+                  className={`max-w-sm cursor-pointer text-[22px] font-semibold text-blue-950 md:text-2.5xl`}>
                   {el.title}
                 </span>
               </div>

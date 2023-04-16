@@ -9,7 +9,7 @@ import Projects from "@/components/Projects"
 import Technology from "@/components/Technology"
 import Sidebar from "@/components/Sidebar"
 import { Inter } from "next/font/google"
-import Blog from "@/components/Blog"
+import Blog from "@/components/blog/Blog"
 
 const inter = Inter({ subsets: ["latin"] })
 
