@@ -16,10 +16,9 @@ export default function Blog() {
         </div>
         <div className="flex w-2/3 flex-col gap-10">
           {blogTitle.map((el, i) => (
-            <div className="flex justify-between">
+            <div className="flex justify-between" key={i}>
               <div
-                className="flex flex-col gap-3"
-                key={i}>
+                className="flex flex-col gap-3">
                 <span className="flex items-center gap-4 font-medium text-slate-500">
                   <i className="flex h-5 w-5">
                     <IoCalendarOutline className="h-full w-full" />
