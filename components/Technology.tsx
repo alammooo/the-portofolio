@@ -4,7 +4,7 @@ import { Tooltip } from "flowbite-react"
 
 export default function Technology() {
   return (
-    <section>
+    <section id="portofolio">
       <div className="mx-auto md:max-w-7xl md:px-10 py-20">
         <SectionTitle type="stack" />
         <div className="mt-14 grid grid-cols-2 md:grid-cols-4">

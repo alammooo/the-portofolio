@@ -4,8 +4,7 @@ import SectionTitle from "./utils/SectionTitle"
 export default function Experience() {
   return (
     <section
-      id="experience"
-      className="bg-sky-50">
+      className="bg-sky-50" id="about">
       <div className="mx-auto md:max-w-7xl md:px-10 py-10 md:py-20">
         <SectionTitle type="experience" />
         <div className="mt-7 grid md:grid-cols-2 gap-10 px-4 md:px-0">

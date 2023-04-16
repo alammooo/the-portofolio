@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "project-pattern": "url('/assets/bg-project.jpg')",
+      },
       fontSize: {
         "4.5xl": "2.5rem",
       },

@@ -22,7 +22,7 @@ export default function Home() {
         className="md:flex"
         style={inter.style}>
         <Sidebar />
-        <section className={`duration-300 md:flex-1`}>
+        <section className={`duration-500 md:flex-1`}>
           <Hero />
           <About />
           <Experience />

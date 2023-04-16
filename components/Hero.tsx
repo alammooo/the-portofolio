@@ -6,7 +6,7 @@ const nunito = Nunito({ subsets: ["latin"] })
 export default function Hero() {
   return (
     <section
-      id="hero"
+      id="home"
       className="h-screen bg-amber-50 bg-opacity-90">
       <div className="mx-auto flex h-full items-center px-4 py-5 md:max-w-7xl md:px-10 md:py-0">
         <div className="flex flex-col gap-16 md:w-7/12 md:gap-36">

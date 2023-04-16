@@ -1,5 +1,5 @@
 import { navLinks, socialIcon } from "@/data/main"
-import { Kristi, Nunito } from "next/font/google"
+import { Kristi } from "next/font/google"
 import React from "react"
 import ProfilePict from "@/assets/my-pict.jpg"
 import Image from "next/image"
@@ -7,6 +7,28 @@ import Image from "next/image"
 const kristi = Kristi({ subsets: ["latin"], weight: "400" })
 
 export default function Sidebar() {
+  const [activeLink, setActiveLink] = React.useState<String>("#home")
+
+  React.useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section")
+      for (let i = 0; i < sections.length; i++) {
+        const section = sections[i]
+        const sectionTop = section.getBoundingClientRect().top
+        if (sectionTop <= 0) {
+          setActiveLink(`#${section.id}`)
+        }
+      }
+    }
+    window.addEventListener("scroll", handleScroll)
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
+
+  React.useEffect(() => {
+    console.log(activeLink)
+  }, [activeLink])
   return (
     <nav className={`hidden h-screen md:mr-[320px] md:flex 2xl:mr-[370px]`}>
       <div
@@ -17,7 +39,7 @@ export default function Sidebar() {
             <Image
               src={ProfilePict}
               alt="my-pict"
-              className="rounded-full object-cover brightness-110"
+              className="animate-morphling overflow-hidden rounded-full border-2 border-blue-400 object-cover"
             />
           </i>
           <h3>
@@ -32,12 +54,15 @@ export default function Sidebar() {
           </h3>
         </div>
         <div className="">
-          <ul className="flex flex-col gap-7 !text-blue-800 hover:text-blue-500">
+          <ul className={`flex flex-col gap-7`}>
             {navLinks.map((el, i) => (
               <li
                 className="capitalize"
                 key={i}>
                 <a
+                  className={`${
+                    activeLink === `#${el}` ? "font-semibold !text-blue-600" : "text-blue-950"
+                  } duration-200`}
                   title={el}
                   href={`#${el}`}>
                   {el}
