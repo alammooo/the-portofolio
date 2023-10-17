@@ -55,15 +55,15 @@ export default function About() {
         <div className="mt-24 grid gap-x-7 gap-y-7 md:grid-cols-3 md:gap-y-0">
           <div className="flex flex-col items-center gap-3 bg-amber-200 py-14 text-blue-950">
             <span className="text-4.5xl font-bold">10+</span>
-            <span className="uppercase">Yeaars of Experience</span>
+            <span className="uppercase">IT Years of experience</span>
           </div>
           <div className="flex flex-col items-center gap-3 bg-cyan-200 py-14 text-blue-950">
-            <span className="text-4.5xl font-bold">10+</span>
-            <span className="uppercase">Yeaars of Experience</span>
+            <span className="text-4.5xl font-bold">50+</span>
+            <span className="uppercase">Project Completed</span>
           </div>
           <div className="flex flex-col items-center gap-3 bg-emerald-200 py-14 text-blue-950">
-            <span className="text-4.5xl font-bold">10+</span>
-            <span className="uppercase">Yeaars of Experience</span>
+            <span className="text-4.5xl font-bold">5</span>
+            <span className="uppercase">Happy client</span>
           </div>
         </div>
       </div>

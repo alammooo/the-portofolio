@@ -89,56 +89,56 @@ export const sectionTitle: SectionInterface[] = [
 
 export const experienceData = [
   {
-    year: "2018 - Present",
-    company: "Envato Market",
-    job: "Web Developer",
-    description: `Website development is the process of building, programming, coding and maintaining websites and web applications.`,
+    year: "2023 - Present",
+    company: "Logics Teknologi Informatika",
+    job: "Full Stack Developer",
+    description: `Developing full stack web application in branch healthcare, currently working on a cutting-edge project`,
   },
   {
-    year: "2018 - Present",
-    company: "Envato Market",
-    job: "Web Developer",
-    description: `Website development is the process of building, programming, coding and maintaining websites and web applications.`,
+    year: "Self Employee",
+    company: "Klinik Ku",
+    job: "Front End Developer",
+    description: `Construction, design, and development of website`,
   },
   {
-    year: "2018 - Present",
-    company: "Envato Market",
-    job: "Web Developer",
-    description: `Website development is the process of building, programming, coding and maintaining websites and web applications.`,
+    year: "2020 - 2021",
+    company: "Universitätsmedizin Mainz",
+    job: "IT - Student Assistant",
+    description: `Responsible for a range of IT-related tasks, also involved to provide IT support for end-users, databases managment activities and network installation`,
   },
   {
-    year: "2018 - Present",
-    company: "Envato Market",
-    job: "Web Developer",
-    description: `Website development is the process of building, programming, coding and maintaining websites and web applications.`,
+    year: "2018",
+    company: "Yves Rocher",
+    job: "Student Assistant",
+    description: `Providing customer advice, managing sales and inventory, participating in marketing and advertising activities, and handling cashiering duties.`,
   },
 ]
 
 export const serviceData = [
   {
-    title: "Web Design",
-    desc: "Web development is the process of building, programming...",
+    title: "Web Development",
+    desc: "Developing web application with best user experience...",
   },
   {
-    title: "Web Design",
-    desc: "Web development is the process of building, programming...",
+    title: "Mobile Application",
+    desc: "Mobile Application development, programming...",
   },
   {
-    title: "Web Design",
-    desc: "Web development is the process of building, programming...",
+    title: "IT Services",
+    desc: "Providing user IT service with support and...",
   },
-  {
-    title: "Web Design",
-    desc: "Web development is the process of building, programming...",
-  },
-  {
-    title: "Web Design",
-    desc: "Web development is the process of building, programming...",
-  },
-  {
-    title: "Web Design",
-    desc: "Web development is the process of building, programming...",
-  },
+  // {
+  //   title: "Web Design",
+  //   desc: "Web development is the process of building, programming...",
+  // },
+  // {
+  //   title: "Web Design",
+  //   desc: "Web development is the process of building, programming...",
+  // },
+  // {
+  //   title: "Web Design",
+  //   desc: "Web development is the process of building, programming...",
+  // },
 ]
 
 export const techStack = [
